@@ -1,5 +1,10 @@
-function isPalindrome(word) {
+function isPalindrome(word){
   // Write your algorithm here
+    //return true if string is a palindrome (mom==>mom) or false
+   const reverseWord = word.toLowerCase().split('').reverse().join('')
+   return reverseWord === word ? true : false
+
+
 }
 
 /* 
